@@ -7,7 +7,7 @@ class Character():
         self.xp = xp
         self.power = power
         self.inventory = []
-        self.mana = mana
+        self.mana = mana 
     def move(self):
         pass
     def attack(self):

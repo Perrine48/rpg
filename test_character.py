@@ -6,7 +6,7 @@ import unittest
 
 class TestCharacter(unittest.TestCase):
 
-    def testCharacterConstructor(self):
+    def testCharacterConstructor(self): 
         c = Character("Toto", 10, 20, 30, 40)
         self.assertEqual(c.name, "Toto")
         self.assertEqual(c.health, 10)
