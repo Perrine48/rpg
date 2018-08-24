@@ -13,8 +13,8 @@ class Spell(Item):
         self.damage = damage
 
     def use(self, character):
-        if character.mana > 0:
-            character.mana -= self.cost            
+        if character.mana >= self.cost:
+            character.mana -= self.cost
 
 class Apple(Item):
     def __init__(self, weight, gain):

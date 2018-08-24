@@ -8,9 +8,8 @@ class Character():
         self.power = power
         self.inventory = []
         self.mana = mana
-
-    def move(self):
-        pass
+        self.x = None
+        self.y = None
 
     def attack(self, target):
         if target.health>=self.power :
